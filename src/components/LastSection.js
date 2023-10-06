@@ -10,8 +10,6 @@ export default function LastSection() {
   const head_style = {
     fontFamily: "Gill Sans",
     fontSize: "25px",
-    height: { xs: "0px" },
-    paddingTop: { lg: "35px", xs: "0px" },
   };
   return (
     <>
@@ -56,21 +54,20 @@ export default function LastSection() {
           className="no-text-select"
           direction="row"
           sx={{
-            height: { lg: "380px", xs: "2350px" },
             paddingLeft: "40px",
             backgroundColor: "#fafdfe",
             justifyContent: "center",
             display: "flex",
+            paddingY: "40px",
           }}
-          width="1450px"
+          rowSpacing={4}
         >
-          <Grid item lg={3} xs={12} sx={{ height: { xs: "0px" } }}>
+          <Grid item lg={3} xs={12}>
             <Typography
               sx={{
                 fontSize: "34px",
                 fontFamily: "Gill Sans",
-                paddingTop: "40px",
-                textDecoration: "underline",
+                fontWeight: "600",
               }}
             >
               LOGIC CONTROL <br />
@@ -94,7 +91,6 @@ export default function LastSection() {
               sx={{
                 fontSize: "16px",
                 color: "#656565  ",
-
                 fontFamily: "Gill Sans",
               }}
             >
@@ -111,15 +107,12 @@ export default function LastSection() {
               sx={{
                 fontSize: "16px",
                 color: "#656565  ",
-                paddingTop: "10px",
                 fontFamily: "Gill Sans",
               }}
             >
               <ListItem>Refurbished Laptops</ListItem>
               <ListItem>Free Laptop Diagnostics</ListItem>
               <ListItem>Comprehensive Hardware Repairs</ListItem>
-              <ListItem>On-Site Repair Services</ListItem>
-              <ListItem>Expert Virus and Malware Removal</ListItem>
               <ListItem>Software Troubleshooting and Installation</ListItem>
               <ListItem>Performance Upgrades for a Faster Experience</ListItem>
             </List>
@@ -130,7 +123,6 @@ export default function LastSection() {
               sx={{
                 fontSize: "18px",
                 color: "#656565  ",
-
                 fontFamily: "Gill Sans",
               }}
             >

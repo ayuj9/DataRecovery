@@ -12,7 +12,7 @@ export default function Home() {
   const box_style = {
     width: { xs: "400px" },
     height: { xs: "170px", lg: "140px" },
-    border: "3px solid #0056a4 ",
+    border: "3px solid #cdecf8",
     borderRadius: "90px",
     display: "flex",
     justifyContent: "center",
@@ -23,7 +23,7 @@ export default function Home() {
     flexDirection: "column",
     fontSize: { lg: "23px", xs: "28px" },
     fontFamily: "initial",
-    backgroundColor: "#cdecf8 ",
+    backgroundColor: "#cdecf8",
     marginBottom: "40px",
   };
   const block_style = {
