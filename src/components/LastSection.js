@@ -1,0 +1,151 @@
+import { Grid, List, ListItem, Typography } from "@mui/material";
+import "../App.css";
+export default function LastSection() {
+  const text_style = {
+    fontFamily: "roboto",
+    fontSize: { lg: "40px", xs: "20px" },
+    fontWeight: "bold",
+  };
+
+  const head_style = {
+    fontFamily: "Gill Sans",
+    fontSize: "25px",
+    height: { xs: "0px" },
+    paddingTop: { lg: "35px", xs: "0px" },
+  };
+  return (
+    <>
+      <Grid
+        container
+        className="no-text-select"
+        sx={{ width: { xs: "410px", lg: "1435px" } }}
+      >
+        <Grid item sx={{ height: { lg: "100px", xs: "200px" } }}>
+          .
+        </Grid>
+
+        <Grid
+          item
+          sx={{
+            height: { lg: "170px" },
+            width: { lg: "1450px", xs: "350px" },
+
+            fontFamily: "roboto",
+
+            fontSize: { lg: "40px", xs: "20px" },
+            fontWeight: "bold",
+
+            textAlign: "center",
+            letterSpacing: "2px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <Typography sx={text_style}>Higher</Typography>
+          <Typography color="#3696ef" sx={text_style}>
+            &nbsp; Success
+          </Typography>
+          <Typography sx={text_style}>, Higher </Typography>
+          <Typography color="#3696ef" sx={text_style}>
+            &nbsp; Data Quality
+          </Typography>
+        </Grid>
+
+        <Grid
+          container
+          className="no-text-select"
+          direction="row"
+          sx={{
+            height: { lg: "380px", xs: "2350px" },
+            paddingLeft: "40px",
+            backgroundColor: "#fafdfe",
+            justifyContent: "center",
+            display: "flex",
+          }}
+          width="1450px"
+        >
+          <Grid item lg={3} xs={12} sx={{ height: { xs: "0px" } }}>
+            <Typography
+              sx={{
+                fontSize: "34px",
+                fontFamily: "Gill Sans",
+                paddingTop: "40px",
+                textDecoration: "underline",
+              }}
+            >
+              LOGIC CONTROL <br />
+              SYSTEM
+            </Typography>
+            <Typography
+              width="250px"
+              paddingTop="10px"
+              fontSize="15px"
+              color="#656565"
+              fontFamily="Gill Sans"
+            >
+              we understand the pivotal role your Hard-disk & laptop plays in
+              your life. When glitches happen, and issues arise, count on us to
+              bring your device back to life!
+            </Typography>
+          </Grid>
+          <Grid item lg={3} sx={head_style} xs={12}>
+            Hard-disk Benefits
+            <List
+              sx={{
+                fontSize: "16px",
+                color: "#656565  ",
+
+                fontFamily: "Gill Sans",
+              }}
+            >
+              <ListItem>Specialised Expertise</ListItem>
+              <ListItem>Cost Effective</ListItem>
+              <ListItem>Data Privacy</ListItem>
+              <ListItem>No-Data, No-Charge</ListItem>
+              <ListItem>Free Evaluation</ListItem>
+            </List>
+          </Grid>
+          <Grid item lg={3} xs={12} sx={head_style}>
+            Laptop Services
+            <List
+              sx={{
+                fontSize: "16px",
+                color: "#656565  ",
+                paddingTop: "10px",
+                fontFamily: "Gill Sans",
+              }}
+            >
+              <ListItem>Refurbished Laptops</ListItem>
+              <ListItem>Free Laptop Diagnostics</ListItem>
+              <ListItem>Comprehensive Hardware Repairs</ListItem>
+              <ListItem>On-Site Repair Services</ListItem>
+              <ListItem>Expert Virus and Malware Removal</ListItem>
+              <ListItem>Software Troubleshooting and Installation</ListItem>
+              <ListItem>Performance Upgrades for a Faster Experience</ListItem>
+            </List>
+          </Grid>
+          <Grid item lg={3} sx={head_style} xs={12}>
+            Contact Info
+            <List
+              sx={{
+                fontSize: "18px",
+                color: "#656565  ",
+
+                fontFamily: "Gill Sans",
+              }}
+            >
+              <ListItem>Dharmendra Kumar Jain</ListItem>
+              <ListItem>
+                Logic Control System, Jayendraganj, Gwalior , M.P.
+              </ListItem>
+
+              <ListItem>logicdharm19@gmail.com</ListItem>
+              <ListItem>+91-9826264568</ListItem>
+              <ListItem>Mon - Sat 11:00 a.m. - 8:30 p.m.</ListItem>
+            </List>
+          </Grid>
+        </Grid>
+      </Grid>
+    </>
+  );
+}
