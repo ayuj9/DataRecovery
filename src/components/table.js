@@ -6,6 +6,7 @@ const brand = process.env.PUBLIC_URL + "/support.png";
 
 export default function TypesTable() {
 
+
   return (
     <>
       <Grid
