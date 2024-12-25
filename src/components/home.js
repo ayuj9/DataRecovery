@@ -18,23 +18,6 @@ const error = process.env.PUBLIC_URL + "/error.png";
 const bin = process.env.PUBLIC_URL + "/bin.png";
 
 export default function Home() {
-  const box_style = {
-    width: { xs: "400px" },
-    height: { xs: "170px", lg: "140px" },
-    border: "3px solid #0056a4 ",
-    borderRadius: "90px",
-    display: "flex",
-    justifyContent: "center",
-    padding: "10px",
-    marginRight: { xs: "20px" },
-    justifyItems: "center",
-    textAlign: "center",
-    flexDirection: "column",
-    fontSize: { lg: "23px", xs: "28px" },
-    fontFamily: "initial",
-    backgroundColor: "#cdecf8 ",
-    marginBottom: "40px",
-  };
   const block_style = {
     height: { xs: "200px" },
     justifyContent: "center",

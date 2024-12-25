@@ -23,33 +23,6 @@ export default function LastSection() {
         </Grid>
 
         <Grid
-          item
-          sx={{
-            height: { lg: "170px" },
-            width: { lg: "1450px", xs: "350px" },
-
-            fontFamily: "roboto",
-
-            fontSize: { lg: "40px", xs: "20px" },
-            fontWeight: "bold",
-
-            textAlign: "center",
-            letterSpacing: "2px",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <Typography sx={text_style}>Higher</Typography>
-          <Typography color="#3696ef" sx={text_style}>
-            &nbsp; Success
-          </Typography>
-          <Typography sx={text_style}>, Higher </Typography>
-          <Typography color="#3696ef" sx={text_style}>
-            &nbsp; Data Quality
-          </Typography>
-        </Grid>
-
-        <Grid
           container
           className="no-text-select"
           direction="row"
