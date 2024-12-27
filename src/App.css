@@ -32,6 +32,14 @@ z
   color: #61dafb;
 }
 
+.bg-last{
+  background-image: linear-gradient(to right bottom, #fefefe, #faf9fc, #f9f3f9, #f8ecf5, #f9e6ef, #f7e4ee, #f6e1ee, #f4dfed, #ede1f2, #e6e3f6, #dee5f8, #d7e7f7);
+}
+
+.bg-home{
+  background-image: linear-gradient(to right bottom, #fefefe, #faf7fc, #f8f0f9, #f8e8f4, #fae0ec, #f9deec, #f7dbeb, #f5d9eb, #edddf2, #e4e0f7, #dce4f8, #d7e7f7);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

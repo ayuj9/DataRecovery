@@ -351,7 +351,7 @@ export default function Home() {
             paddingLeft: { xs: "50px" },
             display: "flex",
             justifyContent: { xs: "center", lg: "center" },
-            height: { lg: "180px", xs: "130px" },
+            height: { lg: "140px", xs: "130px" },
           }}
         >
           <Typography

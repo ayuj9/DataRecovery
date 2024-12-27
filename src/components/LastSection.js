@@ -24,7 +24,7 @@ export default function LastSection() {
 
         <Grid
           container
-          className="no-text-select"
+          className="bg-last"
           direction="row"
           sx={{
             paddingLeft: "40px",

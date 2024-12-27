@@ -18,6 +18,7 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
+const support = process.env.PUBLIC_URL + "/support.png";
 
 export default function TypesTable() {
   const type_head = {
@@ -44,20 +45,24 @@ export default function TypesTable() {
         className="no-text-select"
         direction="column"
         sx={{
-          paddingTop: { lg: "90px", xs: "0px" },
+          // paddingLeft: 30,
+          justifyContent: "center",
+          alignItems: "center",
+          paddingTop: { lg: "10px", xs: "0px" },
+          marginBottom: "20px",
           height: { lg: "540px", xs: "0px" },
         }}
       >
         <Card
           sx={{
-            maxWidth: 300,
+            maxWidth: 800,
+
             boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
             border: "2px solid transparent",
             "&:hover::before": {
               opacity: 1, // Show gradient on hover
             },
             "&:hover": {
-              borderColor: "black",
               transform: "scale(1.03)", // Optional zoom effect
               transition: "transform 0.3s",
 
@@ -66,24 +71,17 @@ export default function TypesTable() {
           }}
         >
           <CardActionArea>
-            {/* <CardMedia sx={{ height: 160, backgroundImage: `url(${bin})` }} /> */}
-            <CardContent>
-              <Typography gutterBottom variant="h6" component="div">
-                Accidental Deletion
-              </Typography>
-              <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                Accidental deletions, whether from a mistaken SHIFT+DEL or
-                clearing the Recycle Bin, are common occurrences. For complex
-                data loss situations, trust our professionals to restore your
-                hard disk data.
-              </Typography>
-            </CardContent>
+            <CardMedia
+              sx={{
+                height: 460,
+                width: 850,
+                backgroundImage: `url(${support})`,
+              }}
+            />
           </CardActionArea>
         </Card>
       </Grid>
-      <Grid item height="120px">
-        .
-      </Grid>
+
       <Grid container justifyContent={"center"}>
         <Grid
           item
@@ -102,8 +100,8 @@ export default function TypesTable() {
               backgroundColor: "#a1cef8",
               textAlign: "center",
               borderRadius: "15px",
-              paddingTop: "30px",
-              paddingBottom: "30px",
+              paddingTop: "20px",
+              paddingBottom: "20px",
             }}
           >
             Data Support Types
